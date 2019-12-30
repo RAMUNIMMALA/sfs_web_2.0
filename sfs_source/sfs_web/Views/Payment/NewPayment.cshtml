@@ -1,0 +1,70 @@
+﻿@model sfs_model.Payment
+@{
+    ViewBag.Title = "SFS - New Payment";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+
+<section id="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"> </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div style="width:80%;">
+                <div class="row">
+                    <div class="col-xs-11">
+                        @using (Html.BeginForm("AddNewPayment", "Payment", FormMethod.Post, new { @class = "form-horizontal" }))
+                        {
+                            <div class="well col-sm-offset-2">
+                                <h2 class="title">New<span class="text-success"> Payment</span></h2>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Title">Title</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Title, new { @id = "txtTitle", @class = "required form-control alphabet", @placeholder = "Title" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Amount">Amount</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Amount, new { @id = "txtAmount", @class = "required form-control numeric", @required = "", @placeholder = "Amount" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="PaymentType">Payment Type</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.PaymentType, new SelectList(Model.PType, "Id", "Title"), new { @id = "txtPaymentType", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Comments">Comments</label>
+                                    <div class="col-md-9">
+                                        @Html.TextAreaFor(x => x.Comments, new { @id = "txtComments", @class = "required form-control alphabet", @placeholder = "Comments" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Attachment">Attachment</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Attachment, new { type = "File", @class = "form-control", @placeholder = "Upload attachment", @enabled = "false", @id = "txtAttachment" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="PaidDate">Paid Date</label>
+                                    <div class="col-md-9">
+                                        @Html.EditorFor(m => m.PaidDate, new { @class = "required form-control", @id = "txtPaidDate", required = " " })
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <a href="/Partner/PartnerData"><input class="btn btn-primary btn-lg" id="Cancel" name="btnLogin" value="Cancel" /></a>&nbsp;
+                                    <input class="btn btn-primary btn-lg" id="btnsubmit" name="btnLogin" value="Add Payment" type="submit" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

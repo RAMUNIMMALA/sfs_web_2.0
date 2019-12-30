@@ -1,0 +1,308 @@
+body { color:#222222; font-family: 'Open Sans', sans-serif; font-weight:400; height: 100%; line-height: 1.8; -webkit-appearance: none; -webkit-font-smoothing: antialiased; overflow-x: hidden; font-size:14px; }
+body{ background:#005f8e;}
+#main-header{ padding:10px 0;}
+.logo-section{ float:left; margin:10px 0 0;}
+.header-ad{ background:url("~/images/ad-bg.jpg") center no-repeat #fdad01; float:right; width:728px; height:90px;}
+h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0;}
+.no-padding{ padding:0;}
+.no-margin{ margin:0;}
+.margin-10b{ margin-bottom:10px;}
+.margin-10t{ margin-top:10px;}
+blockquote {
+  border-left: 0.5em solid #ccc;
+  box-shadow:1px 1px 2px 1px #acacac;
+  font-size: 16px;
+}
+blockquote, .callout {
+  background: #fff none repeat scroll 0 0;
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0.75em 0.5em 0.75em 1.8em;
+}
+blockquote footer{ font-size:90% !important; color:#555;}
+.form-control{ border-color:#aeaeae;}
+
+#main-navigation{ background:#02344d; border-bottom:1px solid #fff;position:relative;}
+#main-navigation .nav{ width:100%;}
+#main-navigation .nav a{ border-right:1px solid #728995; border-left:1px solid #02344d; color:#ffffff; font-size:16px; font-weight:600; padding: 12px 15px; text-transform:uppercase; }
+#main-navigation .nav a:hover, #main-navigation .nav a:focus, #main-navigation .nav .active a{ background:#2e94c4;}
+#main-navigation .nav li:last-child{ float:right;}
+#main-navigation .nav li:last-child a{ border:0;}
+
+#main-slider{ border-bottom:1px solid #ffffff;}
+#main-slider .carousel-caption{ left:15%; top:20%; text-align:left;}
+#main-slider .carousel-caption h1{ font-weight:300; font-size:42px; margin:0 0 6px}
+#main-slider .carousel-caption p{ font-size:16px;}
+#main-slider .carousel-caption a{ color:#fff; text-decoration:underline;}
+#main-slider .carousel-caption a:hover{ color:#fde700; text-decoration:none;}
+#main-slider .carousel-control {  z-index: 2;}
+#main-slider .carousel-control.left {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0px, rgba(0, 0, 0, 0) 100%);
+}
+#main-slider .carousel-control.left .fa { right:30px;}
+#main-slider .carousel-control.right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.2) 100%);
+}
+#main-slider .carousel-control.right .fa { left:30px;}
+
+.carousel-control {
+  top: 0;
+  width: 10%;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .fa {
+  display: inline-block; height:30px;
+  position: absolute;
+  top: 48%; width:30px;
+  z-index: 5;
+}
+
+.latest_next {
+  background-image: url("../images/slider-bg.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; 
+  margin: 10px auto;
+  padding: 30px 0;
+}
+.latest_next::before{ background:url("../images/lottogirl.png") bottom no-repeat #d2f6fe; bottom:0; width:200px; height:200px; position:absolute; left:40%;}
+.latest_next h2{
+ color:#1c3674; font-size:2.1em; font-weight:600; text-transform:uppercase;
+}
+.latest_next h2 span{
+ color:#e11e25}
+.latest_next h5{
+font-size:1.2em; font-weight:600; text-transform:uppercase;
+}
+.btn.blue {
+  background-color: #0e63a4;
+  border: 2px solid #0b4867;
+  
+  color: #fff;
+}
+
+#content-section .container{ background:#ffffff; padding:15px;}
+#content-section .container p{ margin:0 0 20px;}
+.wid_100{ width:100%;}
+.register-ad{ background:url(../images/register-ad.jpg) left top; background-size:cover; border:3px solid #ff6300; color:#222222; height:170px; margin:0 0 20px;  padding:20px; }
+.register-ad h3{ font-size:24px; margin:0 0 15px}
+.numbers-ad{ border-bottom:1px solid #08c5e6;  margin:0 0 20px; width:100%;}
+.btn-lg{ font-size:20px; padding: 6px 24px;}
+.btn-primary {  background-color: #fd7216;  border-color: #f76606;  color: #fff;}
+.btn-info {background-color: #3498db;  border-color: #3498db;  color: #ffffff;}
+.google-ads{text-align:center;}
+.google-ads img{ margin:0 0 20px; }
+
+
+.title{ border-bottom:2px solid #e6e1d7; color:#2f5263; font-size:22px; font-weight:600; padding:0 0 10px; margin:0 0 15px; }
+.title span{ color:#ff6300;}
+h1.title{ border-bottom:0; color:#2f5263; font-size:32px; font-weight:400; padding:0; margin:0 0 15px; }
+.about-img{ text-align:right;}
+#main-footer{ background:#02344d; border-top:4px solid #fda916; color:#fff; padding:10px 0 30px;}
+#main-footer .fa{ color:#9aaeb8; font-size:34px; margin:0 10px 0 0;}
+#main-footer a:last-child .fa{ margin:0;}
+#main-footer .fa:hover{ color:#fda916;}
+#main-footer .navbar-nav{ width:100%;} 
+#main-footer .navbar-nav > li{ float:none; display:inline-block}
+#main-footer .navbar-nav > li a{ color:#ffffff; padding:5px 10px;}
+#main-footer .navbar-nav > li a:hover, #main-footer .navbar-nav > li a:focus{ background:transparent; color:#fda916;}
+#main-footer .navbar-nav li:last-child a {  color: #f00;  display: inline-block;  padding: 0;}
+
+
+#main-footer p{ font-size:13px;}
+#main-footer .poweredby{ float:right; text-align:right; margin:45px 0 0;}
+#main-footer .poweredby a{ color:#fdbe16;}
+#main-footer .btn{ margin:25px 0 0;}
+#main-footer .btn-primary {  background-color: #fda916;  border-color: #fda916;  color: #880000; font-weight: 600;    padding: 6px 24px 8px;}
+
+
+@media (max-width:767px){
+.navbar-toggle{ background:#f00;}
+#bs-example-navbar-collapse-1{ background: #02344d none repeat scroll 0 0;
+left: 0;
+margin: 0;
+padding: 0;
+position: absolute;
+top: 42px;
+width: 100%;
+z-index: 100;}
+#bs-example-navbar-collapse-1 ul{ margin:0;}
+#main-navigation .nav li:last-child{ float:left;}
+#main-slider .carousel-caption{ top:5%;}
+#main-slider .carousel-caption h1{ font-size:32px!important;}
+#main-slider .item img{ max-width:120%;}
+#main-slider .carousel-control.left .fa{  font-size: 1.4em;  right: 0!important;}
+#main-slider .carousel-control.right .fa {  font-size: 1.4em;  left: 0!important;}
+.navbar-toggle {  background: #fd8816 none repeat scroll 0 0;}
+.navbar-toggle .icon-bar{ background:#ffffff;}
+.about-img{ text-align:center;}
+.latest_next::before { display:none;}
+}
+@media (max-width:480px){
+#main-slider .item img{ max-width:160%!important;}
+#main-slider .carousel-caption{ top:0%;}
+#main-slider .carousel-caption h1{ font-size:20px!important;}
+}
+@media (min-width:768px) and (max-width:990px){
+#main-navigation .nav a{ font-size: 14px; padding: 10px 14px;}
+#main-navigation .nav li:last-child{ float:left;}
+.navbar-collapse{ padding:0;}
+.logo-section {  float: none;  margin: 0 auto;  text-align: center;}
+#main-slider .carousel-caption{ top:8%;}
+#main-slider .carousel-caption h1{ font-size:32px;}
+}
+
+.list-unstyled span.fa{ margin:0 6px 0 0;}
+/*Results Box*/
+#results-list .panel, #results-list .panel-heading{ border-radius:0;}
+#results-list .panel-heading{font-size: 1.2em; padding: 3px 10px;}
+.panel.blue{ border-color:#2687c2;}
+.panel.blue > .panel-heading {  background-color: #337ab7;  border-color: #337ab7;  color: #fff; }
+#results-list .panel-body{ background: d3d3d3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffff, #d3d3d3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #d3d3d3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #d3d3d3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #d3d3d3); /* Standard syntax */ padding:0;}
+#results-list .panel-body .date-col{background: #379ad2 none repeat scroll 0 0; border:1px solid #fff; border-right:0; padding:15px 0;height: 100%;}
+#results-list .panel-body .data-col{ padding:0 0 0 50px;}
+.lotto-ball{ background-color:#499bea; color:#ffffff;}
+
+.bonus-ball {
+  background: #fff none repeat scroll 0 0;
+  box-shadow:0 0 20px -2px #000 inset, 0 0 0 7px #499bea inset!important;
+  color: #333; margin:0 0 0 15px!important;  text-shadow: none!important;
+}
+
+/* Blue */
+.panel.blue{ border-color:#2687c2;}
+.panel.blue > .panel-heading {  background-color: #337ab7;  border-color: #337ab7;  color: #fff; }
+.panel.blue .date-col{
+background: 3799d2!important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3799d2, #0c6aa8)!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3799d2, #0c6aa8)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3799d2, #0c6aa8)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3799d2, #0c6aa8)!important; /* Standard syntax */
+	}
+	
+/* Yellow */
+.panel.yellow{ border-color:#f77c02;}
+.panel.yellow > .panel-heading {  background-color: #f77c02;  border-color: #f77c02;  color: #fff; }
+.panel.yellow .date-col{
+background: fba700!important; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fba700, #ba3700)!important; /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fba700, #ba3700)!important; /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fba700, #ba3700)!important; /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fba700, #ba3700)!important; /* Standard syntax */
+}
+.panel.yellow .lotto-ball{ background-color:#fb6307; color:#ffffff;}
+.panel.yellow .bonus-ball {  background: #fff none repeat scroll 0 0; box-shadow:0 0 20px -2px #000 inset, 0 0 0 7px #fb6307 inset!important; color: #333;}
+
+.lotto-ball.grey{ background-color:#c9c9c9!important; color:#333!important; text-shadow: 0 2px 2px #fff!important;}
+		
+#results-list .result {
+  border-radius: 75px;
+  box-shadow: 0 0 18px #111 inset;
+  display: inline-block;
+  font: bold 26px/52px arial,sans-serif;
+  height: 52px;
+  letter-spacing: -1px;
+  margin: 0 2px;
+  position: relative;
+  text-align: center;
+  text-shadow: 0 2px 2px #333;
+  top: 0;
+  width: 52px;
+}
+.result::before {
+  background: url("../images/ball-glow.png") no-repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 32px;
+  left: 3px;
+  position: absolute;
+  top: 1px;
+  width: 47px;
+}
+.prime_numb{ margin:10px 0 0; }
+.second_numb{ margin:10px 0 20px 40px;}
+.second_numb span{ background:#fff; border:1px solid #777; font-size:1.6em; margin:0 10px 0 0; padding:2px 12px;}
+.calendar {
+  background: transparent url("../images/calendar-large.png") no-repeat scroll 0 0;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 97px;
+}
+.calendar span{font-size: 50px;
+left: 13px;
+position: absolute;
+top: 15px;}
+.calendar span sup{ font-size: 18px;
+line-height: normal;
+top: -29px;}
+
+.bonus-ball::after {
+  background: #999 none repeat scroll 0 0;  height: 1px;  left: -27%;  top: 50%;  width: 7px;
+ }
+
+.win_ball {
+  background-image: url("../images/win_ball.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #2c2c2c;
+  display: inline;
+  float: left;
+  font-size: 2em;
+  padding: 15px 0;
+  text-align: center;
+  width: 60px;
+}
+.win_ball.special{
+  background-image: url("../images/win_ball_red.png"); color:#fff;
+  }
+
+@media (max-width:768px){
+.google-ads img{ width:100%;}
+.win_ball{font-size: 1.6em;  width: 48px; }
+.latest_next::before{ left:25%;}
+.result::before{ background:none;}
+#results-list .result{font: bold 21px/36px arial,sans-serif;height: 36px;width: 36px;}
+.bonus-ball {
+    box-shadow:0 0 20px -8px #000 inset, 0 0 0 3px #499bea inset!important;}
+.panel.yellow .bonus-ball { box-shadow:0 0 20px -8px #000 inset, 0 0 0 3px #fb6307 inset!important;}
+.second_numb {  margin: 10px 0 20px 30px;}
+.second_numb span{font-size: 1.4em;}
+.latest_next h2{ font-size: 1.8em;}
+.about-img{text-align: center;}
+.about-img img{ width: 80%;}
+
+
+}
+@media (max-width:1024px){
+#results-list .panel-body .data-col {
+  padding: 0 0 0 18px;
+}
+
+}
+.next-draw{ float: left;
+font-size: 13px;
+font-weight: 600;
+margin: 30px 0 0 30px;
+line-height: 18px; text-shadow:1px 2px 2px rgba(255, 255, 255, 1);}
+.next-draw span{ color:#b30000; display:block; font-size:15px;}
+.header-ad .btn{ background:#ba162e; color:#fff; margin:27px 0 0; }
+.header-ad .btn:hover{ background:#ab0f26;}
+
+.key-single{
+    width:5px;
+    padding-left:3px;
+}
+.key-double{
+    width:10px;
+     padding-left:8px;
+}
+.key-triple{
+    width:15px;
+     padding-left:3px;
+}

@@ -1,0 +1,93 @@
+﻿@model sfs_model.Partner
+@{
+    ViewBag.Title = "SFS - AddPartner";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+<section id="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"> </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div style="width:80%;">
+                <div class="row">
+                    <div class="col-xs-11">
+                        @using (Html.BeginForm("Registration", "Manager", FormMethod.Post, new { @class = "form-horizontal" }))
+                        {
+                            <div class="well col-sm-offset-2">
+                                <h2 class="title">New<span class="text-success"> Partner</span></h2>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="FirstName">First Name</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.FirstName, new { @id = "txtFirstName", @class = "required form-control alphabet", @placeholder = "First Name", @required = "" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="LastName">Last Name</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.LastName, new { @id = "txtLastName", @class = "required form-control alphabet", @required = "", @placeholder = "Last Name" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="PhoneNo">Phone No</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.ContactNo, new { @id = "txtContactNo", @class = "required form-control numeric contactno", @required = "", @placeholder = "Phone No" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="EMail">EMail</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.MailId, new { @id = "txtMail", @class = "required form-control mail", @placeholder = "EMail", @required = "" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Occupation">Occupation</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Occupation, new { @id = "txtOccupation", @class = "required form-control alphabet", @required = "", @placeholder = "Occupation" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="RefName">RefName</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.RefName, new { @id = "txtRefName", @class = "required form-control alphabet", @placeholder = "RefName" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Gender</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.GenderType, new SelectList(Model.GType, "Id", "Title"), new { @id = "txtGenderType", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Type</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.PartnerType, new SelectList(Model.PType.Where(x => x.Title == "Partner").ToList<sfs_model.PartnerType>(), "Id", "Title"), new { @id = "txtPartnerType", @disabled = "disabled", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Status</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.StatusType, new SelectList(Model.SType.Where(x => x.Title == "Active").ToList<sfs_model.StatusType>(), "Id", "Title"), new { @id = "txtStatusType", @disabled = "disabled", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Photo">Photo</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Image, new { type = "File", @class = "form-control", @placeholder = "", @enabled = "false", @id = "txtImage" })
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <a href="/Partner/PartnerData"><input class="btn btn-primary btn-lg" id="Cancel" name="btnLogin" value="Cancel" /></a>&nbsp;
+                                    <input class="btn btn-primary btn-lg" id="btnsubmit" name="btnLogin" value="Register" type="submit" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,97 @@
+﻿@model sfs_model.Partner
+@{
+    ViewBag.Title = "SFS - AddPartner";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+<script type="text/javascript">
+    $(function () {
+        $("#datepicker").datepicker();
+    });
+</script>
+<section id="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"> </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div style="width:80%;">
+                <div class="row">
+                    <div class="col-xs-11">
+                        @using (Html.BeginForm("Registration", "Manager", FormMethod.Post, new { @class = "form-horizontal" }))
+                        {
+                            <div class="well col-sm-offset-2">
+                                <h2 class="title">New<span class="text-success"> Partner</span></h2>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="FirstName">First Name</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.FirstName, new { @class = "required form-control", @placeholder = "First Name", @required = "" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="LastName">Last Name</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.LastName, new { @class = "required form-control", @required = "", @placeholder = "Last Name" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="PhoneNo">Phone No</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.ContactNo, new { @class = "required form-control", @required = "", @placeholder = "Phone No" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="EMail">EMail</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.MailId, new { @class = "required form-control", @required = "", @placeholder = "EMail" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Occupation">Occupation</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Occupation, new { @class = "required form-control", @required = "", @placeholder = "Occupation" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="RefName">RefName</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.RefName, new { @class = "required form-control", @required = "", @placeholder = "RefName" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Gender</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.GenderType, new SelectList(Model.GType, "Id", "Title"), new { @id = "gender", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Type</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.PartnerType, new SelectList(Model.PType.Where(x => x.Title == "Partner").ToList<sfs_model.PartnerType>(), "Id", "Title"), new { @id = "type", @disabled = "disabled", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="password">Status</label>
+                                    <div class="col-md-9">
+                                        @Html.DropDownListFor(x => x.StatusType, new SelectList(Model.SType.Where(x => x.Title == "Active").ToList<sfs_model.StatusType>(), "Id", "Title"), new { @id = "Type", @disabled = "disabled", @class = "form-control", @required = "", @placeholder = "Select Type" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-md-3 control-label" for="Photo">Photo</label>
+                                    <div class="col-md-9">
+                                        @Html.TextBoxFor(x => x.Image, new { type = "File", @class = "form-control", @placeholder = "", @required = "", @enabled = "false", @id = "Payment" })
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <input class="btn btn-primary btn-lg" name="btnLogin" value="Register" type="submit" />
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

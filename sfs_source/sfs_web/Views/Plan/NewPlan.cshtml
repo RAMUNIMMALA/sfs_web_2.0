@@ -1,0 +1,103 @@
+﻿@model sfs_model.Plan
+@{
+    ViewBag.Title = "SFS - New Plan";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+<section id="content-section">
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"> </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div style="width:80%;">
+                <div class="row">
+                    <div class="col-xs-11">
+                        <div class="col-xs-11">
+                            @using (Html.BeginForm("AddNewPlan", "Plan", FormMethod.Post, new { @class = "form-horizontal" }))
+                            {
+                                <div class="well col-sm-offset-2">
+                                    <h2 class="title">New <span class="text-success"> Plan</span></h2>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="Title">Title</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.Title, new { @class = "required form-control upper", @id = "txtTitle", @placeholder = "Title", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="Details">Details</label>
+                                        <div class="col-md-9">
+                                            @Html.TextAreaFor(x => x.Details, new { @class = "required form-control alphabet", @id = "txtDetails", @placeholder = "Details", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="StartDate">Start Date</label>
+                                        <div class="col-md-9">
+                                            @Html.EditorFor(m => m.StartDate, new { @class = "required form-control", @id = "txtStartDate", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="EndDate">End Date</label>
+                                        <div class="col-md-9">
+                                            @Html.EditorFor(m => m.EndDate, new { htmlAttributes = new { @class = "required form-control", @id = "txtEndDate", required = " " } })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="NoofMonths">No of Months</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.NoofMonths, new { @class = "required form-control numeric", @id = "txtNoofMonths", @placeholder = "No of Months", required = " " })
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="NoofPartners">No of Partners</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.NoofPartners, new { @class = "required form-control numeric", @id = "txtNoofPartners", @placeholder = "No of Partners", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="PlanType">Plan Type</label>
+                                        <div class="col-md-9">
+                                            @Html.DropDownListFor(x => x.PlanType, new SelectList(Model.PType, "Id", "Title"), new { @id = "txtPlanType", @class = "form-control", @placeholder = "Select Type", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="Commission">Commission</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.Commission, new { @class = "form-control numeric", @id = "txtCommission", @placeholder = "Commission", @enabled = "false", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="ChitValue">Plan Value</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.PlanValue, new { @class = "form-control numeric", @id = "txtPlanValue", @placeholder = "Plan Value", @enabled = "false", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="MonthlyAmount">Monthly Amount</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.MonthlyAmount, new { @class = "form-control numeric", @id = "txtMonthlyAmount", @placeholder = "Monthly Amount", @enabled = "false", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="AuctionBaseAmount">Base Amount</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.AuctionBaseAmount, new { @class = "form-control numeric", @id = "txtAuctionBaseAmount", @placeholder = "Auction Base Amount", @enabled = "false", required = " " })
+                                            @Html.Label(" ", new { @id = "errmsg", style = " color:red" })
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <a href="/Plan/PlanList"><input class="btn btn-primary btn-lg" id="Cancel" name="btnLogin" value="Cancel" /></a>&nbsp;
+                                        <input class="btn btn-primary btn-lg" name="btnLogin" id="btnsubmit" value="Add Plan" type="submit" />
+                                    </div>
+                                </div>
+                                }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

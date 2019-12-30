@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "SFS - Map Plan To Partner";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+<section id="content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title"> </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div style="width:80%;">
+                <div class="row">
+                    <div class="col-xs-11">
+                        <div class="col-xs-11">
+                            @using (Html.BeginForm("", "", FormMethod.Post, new { @class = "form-horizontal" }))
+                            {
+                                <div class="well col-sm-offset-2">
+                                    <h2 class="title">New <span class="text-success"> Plan</span></h2>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="PartnerNames">Partner Names</label>
+                                        <div class="col-md-9">
+                                            <select class="required form-control" id="ddlPartnerNames">
+                                                <option value="231">Siva</option>
+                                                <option value="798">Malli</option>
+                                                <option value="552">Anusha</option>
+                                            </select>                                                    
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="PlanTitles">Plan Titles</label>
+                                        <select class="required form-control" id="ddlPlanTitles">
+                                            <option value="12">1Jan-31Jan</option>
+                                            <option value="58">5Feb - 8Mar</option>
+                                            <option value="35">1Dec - 5Jun</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="StartDate">Start Date</label>
+                                        <div class="col-md-9">
+                                            @Html.EditorFor(m => m.StartDate, new { id = "startdate", @class = "required form-control", required = " " })
+                                            @*@Html.TextBoxFor(x => x.StartDate, new { @class = "required form-control", @required = "", @placeholder = "Start Date" })*@
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="EndDate">End Date</label>
+                                        <div class="col-md-9">
+                                            @Html.EditorFor(m => m.EndDate, new { htmlAttributes = new { @id = "enddate", @class = "required form-control", required = " " } })
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label" for="NoofMonths">No of Months</label>
+                                        <div class="col-md-9">
+                                            @Html.TextBoxFor(x => x.NoofMonths, new { @class = "required form-control", @id = "noofmonths", @placeholder = "No of Months", required = " " })
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <input class="btn btn-primary btn-lg" name="btnLogin" value="@ViewBag.MapPlan" type="submit" />
+                                    </div>
+                                </div>
+                            }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

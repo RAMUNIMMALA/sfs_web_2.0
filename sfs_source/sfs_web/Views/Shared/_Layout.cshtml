@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/images/favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700' rel='stylesheet' type='text/css'>
+    <link href="~/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css">
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/jquery.countdown.css" rel="stylesheet" type='text/css' />
+</head>
+<body>
+    <div class="mainwrapper">
+        <!--Header-->
+        @*<header id="main-header">
+            <div class="container no-padding">
+                <div class="logo-section"><img src="~/images/thailotto-logo.png" alt="Thailottoup"></div>
+                <div class="header-ad hidden-xs">
+                    <div class="next-draw">Next Draw on: <span>Apr 15, 2016</span></div>
+                    <div class="nextdrawtimer">
+                        <div id="defaultCountdown"></div>
+                    </div>
+                    <div class="pull-left"><a href="../Home/Register" class="btn btn-lg">Register Now</a></div>
+                </div>
+            </div>
+        </header>
+        @if (ViewBag.Error != null)
+        {
+            <div class="color:red">ViewData.Error</div>
+        }
+        else if (ViewBag.Success != null)
+        {
+            <div class="color:green">ViewData.success</div>
+        }*@
+        <div>
+            @RenderBody()
+        </div>
+        <!--Footer-->
+        @*<footer id="main-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <ul class="nav navbar-nav">
+                            <li class="pull-left">Copyright &copy; 2016.</li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="draws.html">Draws</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
+                            <li><a href="contactus.html">Contact Us</a></li>
+                            <li class="pull-right"><a href="#" title="Facebook"><i class="fa fa-facebook-square"></i></a> <a href="#" title="Twitter"><i class="fa fa-twitter-square"></i></a> <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 text-right"> <a href="#"><i class="fa fa-facebook-square"></i></a> <a href="#"><i class="fa fa-twitter-square"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 col-sm-5">
+                        <img src="../images/footer-logo.png" alt="Thailottoup">
+                    </div>
+                    <div class="col-md-8 col-sm-3 text-center"><a href="../Home/Register" class="btn btn-lg btn-primary">Register Now!</a></div>
+                    <p class="col-md-2 poweredby">Powered by <a href="#">EESoft</a>.</p>
+                </div>
+            </div>
+        </footer>*@
+    </div>
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery.countdown.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            /*var austDay = new Date();
+            austDay = new Date(austDay.getFullYear() + 1, 5 - 1, 15);
+            $('#defaultCountdown').countdown({until: austDay});
+            $('#year').text(austDay.getFullYear());*/
+            $('#defaultCountdown').countdown({ until: new Date(2016, 6 - 1, 15) });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.carousel').carousel({
+                interval: 4000
+            });
+
+            setInterval(function () { blink() }, 1200);
+            function blink() {
+                $("#register-ad").fadeTo(100, 0.1).fadeTo(300, 1.0);
+            }
+        })
+    </script>
+</body>
+</html>
+</html>

@@ -1,0 +1,48 @@
+﻿@model sfs_model.Partner
+@{
+    ViewBag.Title = "SFS - User Login";
+}
+
+@if (ViewBag.Login != null)
+{
+    <script type="text/javascript">
+            window.onload = function () {
+                alert('@ViewBag.Login');
+        };
+    </script>
+    ViewBag.Login = null;
+}
+<div>
+    <h3 style="color:orange">@ViewBag.AlertMessage</h3>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <h1 class="title"> </h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-11">
+        @using (Html.BeginForm("CheckUserLogin", "Home", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            <div class="well col-sm-offset-2">
+                <h2 class="title">Log<span class="text-success">in</span></h2>
+                <div class="form-group">
+                    <label class="col-md-3 control-label" for="UserID">UserID</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(x => x.PartnerId, new { @id = "userid", @class = "required form-control", @placeholder = "User ID", @required = "" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 control-label" for="password">Password</label>
+                    <div class="col-md-9">
+                        @Html.TextBoxFor(x => x.Password, new { @id = "password", @type = "Password", @class = "required form-control", @placeholder = "Password", @required = "" })
+                    </div>
+                </div>
+                <div class="text-right">
+                    <input class="btn btn-primary btn-lg" name="btnLogin" id="login"value="Login" type="submit" />
+                </div>
+            </div>
+        }
+    </div>
+</div>

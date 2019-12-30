@@ -1,0 +1,58 @@
+﻿@model List<sfs_model.Partner>
+@{
+    ViewBag.Title = "SFS - Partner Data";
+    Layout = "~/Views/Shared/_PartnerLayout.cshtml";
+}
+
+@if (@Model.Count() > 0) { 
+<div class="row">
+    <div class="col-lg-12">
+        <!--<ol class="breadcrumb">
+          <li class="active"> <i class="fa fa-dashboard"></i> Dashboard </li>
+        </ol>-->
+        <h1 class="page-header"> Partners <small> (@Model.Count())</small> <span class="pull-right"><a class="btn btn-primary" href="/Partner/NewPartner"><i class="fa fa-plus"></i> Add Partner</a></span></h1>
+    </div>
+</div>
+
+<!-- /.row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>Partner Id</th>
+                        <th>Name</th>
+                        <th>ContactNo</th>
+                        <th>MailId</th>
+                        <th>Mapped Plans</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.ActionLink(item.PartnerId, "GetPartnerPlanDetails", "Partner", new { PartnerCode = item.PartnerCode }, htmlAttributes: null)</td>
+                            <td>@item.FirstName @item.LastName</td>
+                            <td>@item.ContactNo</td>
+                            <td>@item.MailId</td>
+                            <td>@Html.ActionLink(item.MappedPlans.ToString(), "GetPartnerPlanDetails", "Partner", new { PartnerCode = item.PartnerCode }, htmlAttributes: null)</td>
+                        
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        @*<div class="text-right">
+            <input class="btn btn-primary btn-lg" name="btnLogin" value="Ok" onclick="location.href='@Url.Action("BacktoHome", "ChitPlan"'"/>&nbsp;>
+            <input class="btn btn-primary btn-lg" name="btnCancel" value="Cancel" type="submit" />
+        </div>*@
+
+    </div>
+</div>
+<!-- /.row -->
+}
+else{
+    <h3 class="title"><span class="text-success">There are no active Partners</span></h3>
+}
+

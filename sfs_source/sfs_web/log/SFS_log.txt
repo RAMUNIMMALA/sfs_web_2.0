@@ -1,0 +1,1900 @@
+﻿Id: 103369200-11062018130524
+UserID: 
+ControllerName: 
+Action Name: Partner/PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1237116691-11062018130545
+UserID: 
+ControllerName: 
+Action Name: Plan/PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1690669140-11062018130549
+UserID: 
+ControllerName: 
+Action Name: Partner/PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 978453417-14062018094937
+UserID: 
+ControllerName: 
+Action Name: Partner/PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1228; handshake=7937; [Login] initialization=0; authentication=0; [Post-Login] complete=5050; 
+------------------------------------------------------------------------------------
+
+Id: 1929162166-14062018094937
+UserID: 
+ControllerName: 
+Action Name: Plan/PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1228; handshake=7937; [Login] initialization=0; authentication=0; [Post-Login] complete=5050; 
+------------------------------------------------------------------------------------
+
+Id: 488388050-14062018094940
+UserID: 
+ControllerName: 
+Action Name: Plan/PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1228; handshake=7937; [Login] initialization=0; authentication=0; [Post-Login] complete=5050; 
+------------------------------------------------------------------------------------
+
+Id: 62932070-14062018094959
+UserID: 
+ControllerName: 
+Action Name: Partner/PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15896; handshake=0; 
+------------------------------------------------------------------------------------
+
+Id: 400671289-21062018123341
+UserID: 
+ControllerName: 
+Action Name: Manager/Registration
+project Name: SFS
+Type: System.FormatException
+Source: sfs_web
+Message: The specified string is not in the form required for an e-mail address.
+------------------------------------------------------------------------------------
+
+Id: 1918048979-21062018123715
+UserID: 
+ControllerName: 
+Action Name: Manager/Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 614985428-21062018124330
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 996559495-21062018124512
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 132196285-21062018124750
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1115915556-21062018125005
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1431030993-21062018125117
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1870390777-21062018125251
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 45034289-22062018094916
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 344702718-22062018094916
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1115754373-22062018094958
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 857573289-22062018095001
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1771769120-22062018095008
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1855534800-22062018095033
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 263784160-22062018095041
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1682487857-22062018100112
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1720123571-22062018100840
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 2086201055-22062018100922
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1741603259-22062018100957
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 879905045-22062018112556
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1710061303-22062018113653
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1394350966-22062018113810
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 256762643-22062018114344
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 962196233-22062018114404
+UserID: 
+ControllerName: 
+Action Name: Plan/AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 2016485694-27062018094941
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 603736874-27062018095317
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iOccupation', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1030910550-27062018095804
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1945106381-27062018095811
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1116792736-27062018095819
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 796375235-27062018095902
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1734701786-27062018095929
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1884135106-27062018100004
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 75156201-27062018100105
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 59381556-27062018100158
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 99543385-27062018100230
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1647422911-27062018100254
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 189341745-27062018100300
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1586244747-27062018100328
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 994789812-27062018100346
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 2085396805-27062018100638
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 699746575-27062018100900
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_insertPartner' expects parameter '@iFirstName', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1217416077-27062018132620
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 57485903-27062018133330
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 321906556-27062018133450
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 859122823-28062018115936
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 807309412-28062018120131
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 996904561-28062018120238
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 2005135933-28062018121217
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 575405239-28062018123405
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1608482979-28062018123810
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 749094196-28062018124058
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 286584142-28062018125303
+UserID: 
+ControllerName: Plan
+Action Name: AddNewPlan
+project Name: SFS
+Type: System.Data.SqlTypes.SqlTypeException
+Source: scs_datarepository
+Message: SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM.
+------------------------------------------------------------------------------------
+
+Id: 1938896448-29062018124620
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1973292860-29062018124623
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 2021871138-29062018124626
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1082219071-29062018124628
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 2095877424-29062018130010
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1214485226-29062018130059
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.String' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1351590092-29062018131111
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1988448546-29062018131111
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 329972013-29062018131113
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 638798306-29062018131115
+UserID: 
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1065366283-29062018132001
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerPlanDetails
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1410170968-29062018132043
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerPlanDetails
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 213396070-29062018132044
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerPlanDetails
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1927541814-29062018132044
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerPlanDetails
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 843163591-29062018132045
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerPlanDetails
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1230178576-30062018135855
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 738550617-30062018135859
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1675245613-30062018135902
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 792489123-30062018135903
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1054804069-30062018135903
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1504390769-30062018135904
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 113421297-30062018135906
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1605344961-30062018135912
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1921598413-30062018135916
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 797099096-30062018141300
+UserID: 
+ControllerName: Manager
+Action Name: Registration
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 439319899-02072018105636
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1230965724-02072018130041
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1990960697-02072018130121
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 2009571665-02072018130347
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1186172073-02072018130546
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1807708436-02072018131033
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 1896780349-02072018131825
+UserID: 
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.ArgumentException
+Source: scs_datarepository
+Message: Object of type 'System.Boolean' cannot be converted to type 'System.Int32'.
+------------------------------------------------------------------------------------
+
+Id: 859174106-02072018132855
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1446304262-03072018121237
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 1276121870-03072018121244
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 1729674319-03072018121248
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 661801357-03072018121355
+UserID: 
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 1181400366-03072018124127
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 1317125972-03072018124258
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 1124345265-03072018124335
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: Failed to convert parameter value from a String to a Int16.
+------------------------------------------------------------------------------------
+
+Id: 2135935279-06082018113048
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 981567802-06082018114653
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1260437584-06082018114749
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1241210118-06082018115050
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1081728494-08082018131847
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 170914311-08082018131943
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 888413261-08082018132012
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1808242962-08082018132540
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1463027260-09082018100609
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 112307968-09082018100748
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 191829837-09082018101003
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1506067604-09082018111029
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 422943724-09082018111312
+UserID: 
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 487682197-09082018112848
+UserID: Malli
+ControllerName: Plan
+Action Name: AddPlanMember
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 579329800-09082018112931
+UserID: Malli
+ControllerName: Plan
+Action Name: AddPlanMember
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 254804204-09082018113633
+UserID: Malli
+ControllerName: Plan
+Action Name: AddPlanMember
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1216827807-09082018120717
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+------------------------------------------------------------------------------------
+
+Id: 683949579-09082018120746
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 698655172-09082018120827
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 923448522-09082018120828
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 223562661-09082018120848
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 592070324-28092018104022
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+------------------------------------------------------------------------------------
+
+Id: 521550713-28092018110614
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 373432110-28092018110639
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 698289512-28092018110653
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 40158259-28092018110653
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 95827470-28092018110656
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1036794254-28092018110754
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1762125552-28092018110854
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 795963165-28092018111833
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1694787330-28092018112338
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 128689016-28092018112624
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1863965213-28092018113246
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 298657889-28092018113550
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1662429621-28092018113727
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1855684480-28092018113744
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 732933297-28092018113907
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 727157081-28092018114008
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 798667237-28092018115441
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1036840664-28092018115552
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 2134549389-28092018115714
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1023061777-28092018115958
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1838168080-03102018114536
+UserID: Siva
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_updatePartnerDetails' expects parameter '@iPartnerCode', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1802118515-03102018114807
+UserID: Siva
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=12736; handshake=2262; 
+------------------------------------------------------------------------------------
+
+Id: 1385869974-03102018114815
+UserID: Siva
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=12736; handshake=2262; 
+------------------------------------------------------------------------------------
+
+Id: 868492498-03102018115905
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Procedure or function 'usp_updatePartnerDetails' expects parameter '@iPartnerCode', which was not supplied.
+------------------------------------------------------------------------------------
+
+Id: 1963924238-08102018105808
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: MailSending
+project Name: SFS
+Type: System.FormatException
+Source: scs_datarepository
+Message: The specified string is not in the form required for an e-mail address.
+------------------------------------------------------------------------------------
+
+Id: 960856753-08102018110218
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1521276330-09102018095759
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1519890440-09102018100009
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 2035133981-09102018100150
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 366391756-09102018100208
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 681033041-09102018100226
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 352733617-09102018100250
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1208341942-09102018100416
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 593230439-09102018100509
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1288131074-09102018100608
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 932258908-09102018100652
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 265978469-09102018100658
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1965935717-09102018101750
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 52838409-09102018103406
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=17206; handshake=21; 
+------------------------------------------------------------------------------------
+
+Id: 763196851-09102018103448
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+------------------------------------------------------------------------------------
+
+Id: 850137290-09102018103458
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.)
+------------------------------------------------------------------------------------
+
+Id: 219703696-09102018104037
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 2051600166-09102018124406
+UserID: Malli
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1082198477-09102018124621
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 2034172368-09102018124734
+UserID: Malli
+ControllerName: SFSBaseController
+Action Name: GetPlanType
+project Name: SFS
+Type: System.NullReferenceException
+Source: sfs_web
+Message: Object reference not set to an instance of an object.
+------------------------------------------------------------------------------------
+
+Id: 1943957769-09102018130441
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 585891080-09102018130514
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 500799884-09102018130518
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 850895834-09102018130534
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1171509425-09102018130739
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 2067376568-10102018110500
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed during the post-login phase.  The connection could have timed out while waiting for server to complete the login process and respond; Or it could have timed out while attempting to create multiple active connections.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=5108; handshake=8721; [Login] initialization=0; authentication=1; [Post-Login] complete=1011; 
+------------------------------------------------------------------------------------
+
+Id: 252030716-10102018111853
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 101004617-10102018111910
+UserID: Malli
+ControllerName: Plan
+Action Name: PlanList
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 829777937-10102018111930
+UserID: Malli
+ControllerName: Payment
+Action Name: AddNewPayment
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1072718902-10102018111933
+UserID: Malli
+ControllerName: Manager
+Action Name: Index
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1829321428-10102018112039
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 2024425530-10102018112110
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 722819042-10102018112204
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 333074191-10102018112327
+UserID: Malli
+ControllerName: Partner
+Action Name: GetPartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1378555727-10102018112407
+UserID: Malli
+ControllerName: Manager
+Action Name: Index
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 235066271-10102018112444
+UserID: Malli
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1533113154-10102018124340
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1403092591-10102018124420
+UserID: Malli
+ControllerName: Partner
+Action Name: PartnerData
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 1973214353-10102018124545
+UserID: Malli
+ControllerName: Plan
+Action Name: AddPlanMember
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1437008221-10102018125420
+UserID: 
+ControllerName: Home
+Action Name: CheckUserLogin
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=20523; handshake=1; 
+------------------------------------------------------------------------------------
+
+Id: 1697915679-10102018125930
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1473061955-10102018130112
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+------------------------------------------------------------------------------------
+
+Id: 784112028-10102018130458
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
+Id: 1076896413-10102018130617
+UserID: Malli
+ControllerName: Partner
+Action Name: PlanMapping
+project Name: SFS
+Type: System.Data.SqlClient.SqlException
+Source: .Net SqlClient Data Provider
+Message: A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.)
+------------------------------------------------------------------------------------
+
